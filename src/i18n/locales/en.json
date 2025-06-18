@@ -1,0 +1,277 @@
+{
+  "common": {
+    "continue": "CONTINUE",
+    "getStarted": "GET STARTED",
+    "alreadyHaveAccount": "I ALREADY HAVE AN ACCOUNT",
+    "loading": "LOADING...",
+    "check": "CHECK",
+    "gotIt": "GOT IT",
+    "skip": "SKIP",
+    "next": "NEXT",
+    "back": "BACK",
+    "done": "DONE",
+    "cancel": "CANCEL",
+    "save": "SAVE",
+    "retry": "RETRY",
+    "correct": "Correct!",
+    "incorrect": "Incorrect",
+    "wellDone": "Well done!",
+    "perfectScore": "Perfect!",
+    "goodJob": "Good job!",
+    "tryAgain": "Try again",
+    "almostThere": "Almost there!",
+    "xpEarned": "{{xp}} XP earned!",
+    "streakDays": "{{count}} day streak",
+    "streakDays_plural": "{{count}} day streak"
+  },
+  "onboarding": {
+    "welcomeTitle": "JapaneseGo",
+    "welcomeSubtitle": "Learn Japanese for free. Forever.",
+    "introTitle": "Hi there! I'm Duo!",
+    "loadingMessage": "By spending just 15 minutes a day on JapaneseGo, you could learn 100 Japanese words a month!",
+    "languageSelection": "What language do you speak?",
+    "goalSelection": "What's your goal?",
+    "goals": {
+      "casual": "Casual - 5 min/day",
+      "regular": "Regular - 10 min/day",
+      "serious": "Serious - 15 min/day",
+      "intense": "Intense - 20 min/day"
+    },
+    "experienceLevel": "How much Japanese do you know?",
+    "levels": {
+      "beginner": "I'm new to Japanese",
+      "intermediate": "I know some Japanese",
+      "advanced": "I'm quite advanced"
+    }
+  },
+  "exercises": {
+    "selectCorrectImage": "Select the correct image",
+    "selectCorrectTranslation": "Select the correct translation",
+    "translateSentence": "Translate this sentence",
+    "whatDoYouHear": "What do you hear?",
+    "fillInTheBlanks": "Fill in the blanks",
+    "matchPairs": "Match the pairs",
+    "arrangeWords": "Arrange the words",
+    "speakThisPhrase": "Speak this phrase",
+    "writeInJapanese": "Write in Japanese",
+    "skipListening": "We'll skip listening for 15 minutes.",
+    "tapWordMeaning": "Tap on a word to see its meaning!",
+    "correctAnswer": "Correct Answer:",
+    "explanation": "Explanation:",
+    "youAnswered": "You answered:",
+    "shouldBe": "Should be:",
+    "hintsRemaining": "{{count}} hint remaining",
+    "hintsRemaining_plural": "{{count}} hints remaining",
+    "useHint": "Use a hint",
+    "reportProblem": "Report a problem"
+  },
+  "lessons": {
+    "hiragana": "Hiragana",
+    "katakana": "Katakana", 
+    "basicKanji": "Basic Kanji",
+    "vocabulary": "Vocabulary",
+    "grammar": "Grammar",
+    "conversation": "Conversation",
+    "culture": "Culture",
+    "locked": "Locked",
+    "completed": "Completed",
+    "perfect": "Perfect",
+    "startLesson": "Start Lesson",
+    "continueLesson": "Continue Lesson",
+    "reviewLesson": "Review Lesson",
+    "lessonComplete": "Lesson Complete!",
+    "xpEarned": "+{{xp}} XP",
+    "accuracy": "{{percent}}% accuracy",
+    "timeSpent": "{{minutes}} minutes",
+    "mistakesMade": "{{count}} mistake",
+    "mistakesMade_plural": "{{count}} mistakes"
+  },
+  "characters": {
+    "hiragana": {
+      "title": "Hiragana",
+      "description": "Learn the basic Japanese syllabary"
+    },
+    "katakana": {
+      "title": "Katakana", 
+      "description": "Learn the syllabary for foreign words"
+    },
+    "kanji": {
+      "title": "Kanji",
+      "description": "Learn essential Chinese characters"
+    }
+  },
+  "navigation": {
+    "home": "Home",
+    "learn": "Learn",
+    "practice": "Practice", 
+    "profile": "Profile",
+    "lessons": "Lessons",
+    "review": "Review",
+    "settings": "Settings",
+    "achievements": "Achievements",
+    "leaderboard": "Leaderboard",
+    "statistics": "Statistics"
+  },
+  "home": {
+    "dailyGoal": "Daily Goal",
+    "currentStreak": "Current Streak",
+    "totalXP": "Total XP",
+    "lessonsCompleted": "Lessons Completed",
+    "wordsLearned": "Words Learned",
+    "startLearning": "Start Learning",
+    "continueWhere": "Continue where you left off",
+    "practiceWeakWords": "Practice weak words",
+    "todaysLesson": "Today's Lesson",
+    "reviewDue": "{{count}} item due for review",
+    "reviewDue_plural": "{{count}} items due for review",
+    "achievementUnlocked": "Achievement Unlocked!",
+    "dailyGoalComplete": "Daily goal complete!",
+    "keepGoing": "Keep going!"
+  },
+  "profile": {
+    "username": "Username",
+    "level": "Level {{level}}",
+    "joined": "Joined {{date}}",
+    "statistics": "Statistics",
+    "achievements": "Achievements",
+    "settings": "Settings",
+    "editProfile": "Edit Profile",
+    "changePhoto": "Change Photo",
+    "accountSettings": "Account Settings",
+    "languageSettings": "Language Settings",
+    "notificationSettings": "Notification Settings",
+    "privacySettings": "Privacy Settings",
+    "helpSupport": "Help & Support",
+    "aboutApp": "About JapaneseGo",
+    "signOut": "Sign Out",
+    "deleteAccount": "Delete Account"
+  },
+  "settings": {
+    "general": "General",
+    "notifications": "Notifications",
+    "audio": "Audio",
+    "display": "Display",
+    "learning": "Learning",
+    "account": "Account",
+    "dailyReminder": "Daily reminder",
+    "reminderTime": "Reminder time",
+    "streakReminder": "Streak reminder",
+    "achievementNotifications": "Achievement notifications",
+    "soundEnabled": "Sound enabled",
+    "volume": "Volume",
+    "playbackSpeed": "Playback speed",
+    "autoplay": "Autoplay audio",
+    "theme": "Theme",
+    "fontSize": "Font size",
+    "showFurigana": "Show furigana",
+    "showRomaji": "Show romaji",
+    "dailyGoalXP": "Daily goal (XP)",
+    "difficultyPreference": "Difficulty preference",
+    "spacedRepetition": "Spaced repetition",
+    "maxReviewsPerDay": "Max reviews per day"
+  },
+  "achievements": {
+    "title": "Achievements",
+    "locked": "Locked",
+    "unlocked": "Unlocked",
+    "progress": "{{current}}/{{total}}",
+    "scholar": {
+      "name": "Scholar",
+      "description": "Complete your first lesson"
+    },
+    "streakWarrior": {
+      "name": "Streak Warrior", 
+      "description": "Maintain a 7-day streak"
+    },
+    "vocabMaster": {
+      "name": "Vocab Master",
+      "description": "Learn 100 new words"
+    },
+    "kanjiExplorer": { 
+      "name": "Kanji Explorer",
+      "description": "Learn 50 kanji characters"
+    },
+    "perfectionist": {
+      "name": "Perfectionist",
+      "description": "Complete a lesson with 100% accuracy"
+    },
+    "nightOwl": {
+      "name": "Night Owl",
+      "description": "Complete a lesson after 10 PM"
+    },
+    "earlyBird": {
+      "name": "Early Bird", 
+      "description": "Complete a lesson before 8 AM"
+    }
+  },
+  "practice": {
+    "title": "Practice",
+    "reviewDue": "Review Due",
+    "weakWords": "Weak Words",
+    "mistakes": "Mistakes",
+    "favorites": "Favorites",
+    "allPractice": "All Practice",
+    "startPractice": "Start Practice",
+    "practiceComplete": "Practice Complete!",
+    "wordsReviewed": "{{count}} word reviewed",
+    "wordsReviewed_plural": "{{count}} words reviewed",
+    "accuracy": "{{percent}}% accuracy",
+    "strengthIncreased": "Strength increased!",
+    "needsMorePractice": "Needs more practice",
+    "almostMastered": "Almost mastered",
+    "mastered": "Mastered"
+  },
+  "leaderboard": {
+    "title": "Leaderboard",
+    "thisWeek": "This Week",
+    "allTime": "All Time",
+    "friends": "Friends",
+    "global": "Global",
+    "yourRank": "Your Rank",
+    "xpThisWeek": "XP this week",
+    "totalXP": "Total XP",
+    "addFriends": "Add Friends",
+    "followFriends": "Follow friends to see their progress!",
+    "compete": "Compete with friends and climb the leaderboard!"
+  },
+  "results": {
+    "lessonComplete": "Lesson Complete!",
+    "practiceComplete": "Practice Complete!",
+    "perfectScore": "Perfect Score!",
+    "greatJob": "Great Job!",
+    "keepItUp": "Keep it up!",
+    "almostPerfect": "Almost Perfect!",
+    "needsPractice": "Needs Practice",
+    "totalXP": "Total XP: {{xp}}",
+    "accuracy": "Accuracy: {{percent}}%",
+    "timeSpent": "Time: {{minutes}}m {{seconds}}s",
+    "wordsLearned": "New words: {{count}}",
+    "reviewAgain": "Review Again",
+    "nextLesson": "Next Lesson",
+    "backToHome": "Back to Home",
+    "shareResults": "Share Results"
+  },
+  "errors": {
+    "networkError": "Network error. Please check your connection.",
+    "serverError": "Server error. Please try again later.",
+    "loadingFailed": "Failed to load content. Please try again.",
+    "audioFailed": "Failed to play audio.",
+    "saveFailed": "Failed to save progress.",
+    "loginRequired": "Please log in to continue.",
+    "sessionExpired": "Session expired. Please log in again.",
+    "unexpectedError": "An unexpected error occurred."
+  },
+  "japanese": {
+    "hiragana": "ひらがな",
+    "katakana": "カタカナ", 
+    "kanji": "漢字",
+    "vocabulary": "語彙",
+    "grammar": "文法",
+    "conversation": "会話",
+    "culture": "文化",
+    "reading": "読み方",
+    "meaning": "意味",
+    "example": "例文",
+    "pronunciation": "発音"
+  }
+} 

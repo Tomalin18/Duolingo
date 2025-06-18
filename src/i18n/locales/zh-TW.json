@@ -1,0 +1,83 @@
+{
+  "common": {
+    "continue": "繼續",
+    "getStarted": "開始使用",
+    "alreadyHaveAccount": "我已經有帳號了",
+    "loading": "載入中...",
+    "check": "檢查",
+    "gotIt": "知道了",
+    "skip": "跳過",
+    "next": "下一步",
+    "back": "返回",
+    "done": "完成",
+    "cancel": "取消",
+    "save": "儲存",
+    "retry": "重試",
+    "correct": "正確！",
+    "incorrect": "錯誤",
+    "wellDone": "做得很好！",
+    "perfectScore": "完美！",
+    "goodJob": "做得好！",
+    "tryAgain": "再試一次",
+    "almostThere": "快到了！",
+    "xpEarned": "獲得 {{xp}} 經驗值！",
+    "streakDays": "{{count}} 天連續學習",
+    "streakDays_plural": "{{count}} 天連續學習"
+  },
+  "onboarding": {
+    "welcomeTitle": "JapaneseGo",
+    "welcomeSubtitle": "免費學習日語，永遠免費。",
+    "introTitle": "你好！我是 Duo！",
+    "loadingMessage": "每天只需花 15 分鐘在 JapaneseGo 上，你就可以在一個月內學會 100 個日語單詞！",
+    "languageSelection": "你說什麼語言？",
+    "goalSelection": "你的目標是什麼？",
+    "goals": {
+      "casual": "輕鬆 - 每天 5 分鐘",
+      "regular": "一般 - 每天 10 分鐘",
+      "serious": "認真 - 每天 15 分鐘",
+      "intense": "密集 - 每天 20 分鐘"
+    },
+    "experienceLevel": "你對日語了解多少？",
+    "levels": {
+      "beginner": "我是日語新手",
+      "intermediate": "我懂一些日語",
+      "advanced": "我的日語相當進階"
+    }
+  },
+  "exercises": {
+    "selectCorrectImage": "選擇正確的圖片",
+    "selectCorrectTranslation": "選擇正確的翻譯",
+    "translateSentence": "翻譯這個句子",
+    "whatDoYouHear": "你聽到什麼？",
+    "fillInTheBlanks": "填空",
+    "matchPairs": "配對",
+    "arrangeWords": "排列單詞",
+    "speakThisPhrase": "說出這個短語",
+    "writeInJapanese": "用日語寫",
+    "skipListening": "我們將跳過聽力練習 15 分鐘。",
+    "tapWordMeaning": "點擊單詞查看意思！",
+    "correctAnswer": "正確答案：",
+    "explanation": "解釋：",
+    "youAnswered": "你的答案：",
+    "shouldBe": "應該是：",
+    "hintsRemaining": "剩餘 {{count}} 個提示",
+    "hintsRemaining_plural": "剩餘 {{count}} 個提示",
+    "useHint": "使用提示",
+    "reportProblem": "回報問題"
+  },
+  "navigation": {
+    "home": "首頁",
+    "learn": "學習",
+    "practice": "練習",
+    "profile": "個人檔案"
+  },
+  "japanese": {
+    "hiragana": "ひらがな",
+    "katakana": "カタカナ",
+    "kanji": "漢字",
+    "vocabulary": "語彙",
+    "grammar": "文法",
+    "conversation": "會話",
+    "culture": "文化"
+  }
+} 

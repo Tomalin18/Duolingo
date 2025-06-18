@@ -1,0 +1,20 @@
+{
+  "common": {
+    "continue": "계속",
+    "skip": "건너뛰기",
+    "next": "다음",
+    "back": "뒤로",
+    "done": "완료",
+    "cancel": "취소",
+    "ok": "확인",
+    "yes": "예",
+    "no": "아니오",
+    "loading": "로딩 중...",
+    "error": "오류",
+    "retry": "다시 시도"
+  },
+  "onboarding": {
+    "welcome": "JapaneseGo에 오신 것을 환영합니다",
+    "description": "재미있고 상호작용적인 방식으로 일본어를 배워보세요"
+  }
+} 

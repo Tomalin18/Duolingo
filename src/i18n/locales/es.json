@@ -1,0 +1,14 @@
+{
+  "common": {
+    "continue": "CONTINUAR",
+    "getStarted": "EMPEZAR",
+    "loading": "CARGANDO...",
+    "check": "VERIFICAR"
+  },
+  "navigation": {
+    "home": "Inicio",
+    "learn": "Aprender",
+    "practice": "Practicar",
+    "profile": "Perfil"
+  }
+} 

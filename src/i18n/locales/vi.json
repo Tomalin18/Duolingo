@@ -1,0 +1,20 @@
+{
+  "common": {
+    "continue": "Tiếp tục",
+    "skip": "Bỏ qua",
+    "next": "Tiếp theo",
+    "back": "Quay lại",
+    "done": "Hoàn thành",
+    "cancel": "Hủy",
+    "ok": "OK",
+    "yes": "Có",
+    "no": "Không",
+    "loading": "Đang tải...",
+    "error": "Lỗi",
+    "retry": "Thử lại"
+  },
+  "onboarding": {
+    "welcome": "Chào mừng đến với JapaneseGo",
+    "description": "Học tiếng Nhật một cách thú vị và tương tác"
+  }
+} 

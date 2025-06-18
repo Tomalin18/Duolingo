@@ -1,0 +1,20 @@
+{
+  "common": {
+    "continue": "Continua",
+    "skip": "Salta",
+    "next": "Avanti",
+    "back": "Indietro",
+    "done": "Fatto",
+    "cancel": "Annulla",
+    "ok": "OK",
+    "yes": "Sì",
+    "no": "No",
+    "loading": "Caricamento...",
+    "error": "Errore",
+    "retry": "Riprova"
+  },
+  "onboarding": {
+    "welcome": "Benvenuto in JapaneseGo",
+    "description": "Impara il giapponese in modo divertente e interattivo"
+  }
+} 
