@@ -7,6 +7,8 @@ import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
 import OnboardingScreen from '../screens/OnboardingScreen';
 import IntroScreen from '../screens/IntroScreen';
 import LoadingScreen from '../screens/LoadingScreen';
+import WelcomeNavigator from './WelcomeNavigator';
+import AppInitializer from '../screens/AppInitializer';
 import HomeScreen from '../screens/HomeScreen';
 import LearnScreen from '../screens/LearnScreen';
 import PracticeScreen from '../screens/PracticeScreen';
@@ -87,11 +89,26 @@ const AppNavigator = () => {
   return (
     <NavigationContainer>
       <Stack.Navigator
-        screenOptions={{
-          headerShown: false,
-          animation: 'slide_from_right',
-        }}
-      >
+              screenOptions={{
+        headerShown: false,
+        animation: 'slide_from_right',
+      }}
+      initialRouteName="AppInitializer"
+    >
+        <Stack.Screen 
+          name="AppInitializer" 
+          component={AppInitializer}
+          options={{
+            headerShown: false,
+          }}
+        />
+        <Stack.Screen 
+          name="Welcome" 
+          component={WelcomeNavigator}
+          options={{
+            headerShown: false,
+          }}
+        />
         <Stack.Screen 
           name="Onboarding" 
           component={OnboardingScreen}

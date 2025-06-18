@@ -5,6 +5,67 @@
 格式基於 [Keep a Changelog](https://keepachangelog.com/zh-TW/1.0.0/)，
 並且本專案遵循 [語義化版本](https://semver.org/lang/zh-TW/)。
 
+## [v1.1.0] - 2025-01-17
+
+### 新增 (Added)
+- 🎉 **完整歡迎/入門流程**
+  - 6 個步驟的完整歡迎流程
+  - 完全匹配 Duolingo 的用戶體驗設計
+  - 支援觸覺反饋和動畫效果
+  - 智能啟動檢查機制
+
+- 📱 **歡迎流程螢幕**
+  - SplashScreen - 啟動畫面配 logo 呼吸動畫
+  - LanguageSelectionScreen - 11 種語言選擇
+  - GoalSelectionScreen - 學習目標設定
+  - LevelAssessmentScreen - 水平評估
+  - AgeSelectionScreen - 年齡選擇
+  - ProfileCreationScreen - 個人資料創建
+
+- 🎨 **可重用 UI 元件**
+  - ProgressIndicator - 動畫進度指示器
+  - AnimatedButton - 多變體動畫按鈕
+  - FlagCard - 語言旗幟卡片
+  - GoalCard - 學習目標卡片
+  - LevelCard - 水平評估卡片
+
+- 🔧 **狀態管理系統**
+  - OnboardingContext - 全域狀態管理
+  - AsyncStorage 持久化存儲
+  - AppInitializer - 智能啟動路由
+
+- 🌍 **多語言支援準備**
+  - 11 種語言選項配置
+  - 語言切換基礎架構
+  - 本地化資料結構
+
+### 變更 (Changed)
+- 🔄 **應用啟動流程**
+  - 重構 App.tsx 支援歡迎流程
+  - 更新 AppNavigator 包含歡迎流程導航
+  - 添加 OnboardingProvider 狀態管理
+
+- 📊 **類型定義擴充**
+  - 新增 OnboardingState 相關類型
+  - 更新 RootStackParamList 路由參數
+  - 擴充 WelcomeStackParamList 導航類型
+
+### 修復 (Fixed)
+- 🐛 **TypeScript 類型錯誤**
+  - 修復 AnimatedButton 樣式類型問題
+  - 更新頭像選項使用 emoji 字串
+  - 整合 Context 到所有歡迎流程螢幕
+
+- 📦 **依賴管理**
+  - 安裝 expo-linear-gradient 支援漸變背景
+  - 更新相關依賴版本
+
+### 技術實現 (Technical Implementation)
+- 使用 react-native-reanimated 實現流暢動畫
+- 觸覺反饋整合 (expo-haptics)
+- 響應式設計適配不同螢幕尺寸
+- 完整的錯誤處理和邊界情況處理
+
 ## [v1.0.0] - 2025-06-18
 
 ### 新增 (Added)

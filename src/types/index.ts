@@ -240,6 +240,8 @@ export type AchievementType =
 
 // Navigation Types
 export type RootStackParamList = {
+  AppInitializer: undefined;
+  Welcome: undefined;
   Onboarding: undefined;
   Intro: undefined;
   Loading: undefined;
@@ -363,4 +365,66 @@ export interface ReviewMix {
   vocabulary: number; // percentage
   characters: number; // percentage  
   grammar: number; // percentage
+}
+
+// Welcome/Onboarding Types
+export interface OnboardingState {
+  selectedLanguage: SupportedLanguage;
+  learningGoal: LearningGoal;
+  currentLevel: CurrentLevel;
+  ageRange: AgeRange;
+  profile: OnboardingProfile;
+  isCompleted: boolean;
+}
+
+export type LearningGoal = 'casual' | 'regular' | 'serious' | 'intense';
+
+export type CurrentLevel = 'new' | 'some' | 'much';
+
+export type AgeRange = 'under13' | '13-17' | '18-24' | '25-34' | '35-49' | '50+';
+
+export interface OnboardingProfile {
+  avatar: number;
+  name: string;
+  isGuest: boolean;
+}
+
+export type WelcomeStackParamList = {
+  Splash: undefined;
+  LanguageSelection: undefined;
+  GoalSelection: undefined;
+  LevelAssessment: undefined;
+  AgeSelection: undefined;
+  ProfileCreation: undefined;
+};
+
+export interface LanguageOption {
+  code: SupportedLanguage;
+  name: string;
+  nativeName: string;
+  flag: string;
+}
+
+export interface GoalOption {
+  id: LearningGoal;
+  title: string;
+  subtitle: string;
+  minutes: number;
+  icon: string;
+  isDefault?: boolean;
+}
+
+export interface LevelOption {
+  id: CurrentLevel;
+  title: string;
+  subtitle: string;
+  description: string;
+  icon: string;
+  showPlacementTest?: boolean;
+}
+
+export interface AvatarOption {
+  id: number;
+  source: string; // Using emoji strings for now
+  name: string;
 } 

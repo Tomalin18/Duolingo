@@ -4,6 +4,7 @@ import { SafeAreaProvider } from 'react-native-safe-area-context';
 import * as Font from 'expo-font';
 import AppNavigator from './src/navigation/AppNavigator';
 import { initializeI18n } from './src/i18n';
+import { OnboardingProvider } from './src/context/OnboardingContext';
 
 export default function App() {
   useEffect(() => {
@@ -28,8 +29,10 @@ export default function App() {
 
   return (
     <SafeAreaProvider>
-      <AppNavigator />
-      <StatusBar style="auto" />
+      <OnboardingProvider>
+        <AppNavigator />
+        <StatusBar style="auto" />
+      </OnboardingProvider>
     </SafeAreaProvider>
   );
 } 
